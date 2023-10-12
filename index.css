@@ -8,7 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 413px;
-  /* background-color: red; */
 }
 .header {
   display: flex;
@@ -18,16 +17,15 @@ body {
 .header1 {
   display: none;
   width: 100px;
-  /* background-color: red; */
 }
 
 /* window */
 
 .option {
   display: flex;
-  /* width: 50%; */
+
   height: 10%;
-  /* background-color: red; */
+
   align-items: center;
   justify-content: space-between;
 }
@@ -35,8 +33,7 @@ body {
 .toggle-button {
   width: 114px;
   height: 61px;
-  /* background-color: blue; */
-  /* margin-left: 25px; */
+
   justify-content: center;
   align-items: center;
 }
@@ -52,7 +49,7 @@ body {
   width: 0;
   height: 0;
 }
-/* Rounded sliders */
+
 .slider.round {
   border-radius: 34px;
 }
@@ -93,7 +90,6 @@ body {
   left: 4px;
   bottom: 4px;
   background-color: black;
-  /* -webkit-transition: 0.4s; */
   transition: 0.4s;
 }
 .option {
@@ -120,7 +116,6 @@ body {
 
 .content {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
@@ -134,7 +129,6 @@ body {
   height: 50px;
   background-color: #f9a826;
   color: white;
-  /* border: 2px solid black; */
   border-radius: 10px;
   border-radius: 6px;
 }
@@ -167,7 +161,6 @@ body {
   width: 141px;
   height: 56px;
   background-color: #f9a826;
-  /* border: 2px solid; */
   border-radius: 5px;
   color: white;
   justify-content: center;
@@ -179,7 +172,6 @@ body {
   width: 141px;
   height: 56px;
   background-color: #f9a826;
-  /* border: 2px solid; */
   border-radius: 5px;
   color: white;
   align-items: center;
@@ -194,11 +186,8 @@ body {
 .first-para {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   background-color: #eeeeee;
-  /* margin-top: 194px; */
-  /* border: 2px solid black; */
   border-radius: 6px;
   margin-right: 19px;
   margin-left: 9px;
@@ -207,11 +196,8 @@ body {
 .first-para1 {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   background-color: #eeeeee;
-  /* margin-top: 194px; */
-  /* border: 2px solid black; */
   border-radius: 6px;
   margin-right: 19px;
   margin-left: 9px;
@@ -264,14 +250,12 @@ body {
   background-color: #f9a826;
   width: 402px;
   height: 193px;
-  /* justify-content: space-between; */
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
 @media only screen and (min-width: 416px) {
   .container {
-    /* background-color: yellow; */
     width: auto;
     justify-content: center;
     align-items: center;
@@ -280,7 +264,6 @@ body {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
-    /* justify-content: none; */
     justify-content: end;
   }
   .option {
@@ -313,7 +296,6 @@ body {
     height: 65px;
     background-color: #f9a826;
     color: white;
-    /* border: 2px solid black; */
     border-radius: 10px;
     border-radius: 7px;
     font-size: 26px;
@@ -371,7 +353,6 @@ body {
     background-color: #f9a826;
     border: 2px solid;
     border-radius: 5px;
-    /* color: white; */
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -384,7 +365,6 @@ body {
     background-color: #f9a826;
     border: 2px solid;
     border-radius: 5px;
-    /* color: white; */
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -405,8 +385,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #eeeeee;
-    /* margin-top: 194px; */
-    /* border: 2px solid black; */
     border-radius: 6px;
     margin-right: 19px;
     margin-left: 9px;
@@ -419,8 +397,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #eeeeee;
-    /* margin-top: 194px; */
-    /* border: 2px solid black; */
     border-radius: 6px;
     margin-right: 19px;
     margin-left: 9px;
@@ -461,12 +437,10 @@ body {
   .programapara {
     display: flex;
     width: 50%;
-    /* justify-content: space-around; */
     background-color: #eeeeee;
     justify-content: center;
     align-items: center;
     gap: 203px;
-    /* border: 2px solid; */
     border-radius: 27px;
     height: 571px;
   }
@@ -489,7 +463,6 @@ body {
   .htext1 {
     display: flex;
     background-color: #eeeeee;
-    /* border: 2px solid; */
     border-radius: 15px;
     width: 1400px;
     height: 550px;
